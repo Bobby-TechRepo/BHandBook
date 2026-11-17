@@ -482,7 +482,7 @@ class CanvasViewModel @Inject constructor(
         const val SEARCH_DELAY_MS = 250L
         private const val MAX_SEARCH_HITS = 100
         private const val MAX_HITS_PER_CANVAS = 20
-        private const val AUTOSAVE_DELAY_MS = 1_200L
+        const val AUTOSAVE_DELAY_MS = 1_200L
         /** Stroke colour 0 means "theme ink": black on light backgrounds, white on dark. */
         const val ADAPTIVE_INK = 0L
     }
