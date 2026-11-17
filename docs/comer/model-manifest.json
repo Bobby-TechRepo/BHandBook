@@ -1,0 +1,46 @@
+{
+  "name": "CoMER INT8 (ONNX) as published by ink-on",
+  "source": "https://github.com/kimseungdae/ink-on",
+  "release": "v0.1.0",
+  "releaseUrl": "https://github.com/kimseungdae/ink-on/releases/tag/v0.1.0",
+  "sourceCommit": "aaf79ca3722458cd8bf8f38de26a32d0e0b44d68",
+  "files": {
+    "encoder_int8.onnx": { "bytes": 3460779, "sha256": ["272f17c7b120db61db6cd8d77e695d0139144044abd57d9b23284435a5d916fa"] },
+    "decoder_int8.onnx": { "bytes": 4118047, "sha256": ["658901d81ca3aa4b62b0da262e8fe67ebcfdac19cfb52ca2cfd076bebd481088"] },
+    "vocab.json": {
+      "bytes": 3934,
+      "sha256": ["6ef75b588049981d2b5b2ceedcc7066dddcbb0c7d04ee2cbfb0ec861f192a850", "1d75cbbea3bed558683d7e9c3b3c72069ef2143a155d5f8c610f85a281af000c"],
+      "note": "the release copy uses CRLF line endings, the git tree copy LF; the parsed JSON is identical (second digest = LF-normalised)"
+    }
+  },
+  "vocabulary": {
+    "size": 113,
+    "specialTokens": { "pad": 0, "sos": 1, "eos": 2 },
+    "note": "113 is the number of tokens in the file, equal to the decoder's logits dimension and to the release notes. The ink-on README states 245, which is wrong."
+  },
+  "graphs": {
+    "encoder_int8.onnx": {
+      "irVersion": 8, "opset": { "ai.onnx": 17 }, "producer": "onnx.quantize 0.1.0", "nodes": 955,
+      "inputs": { "pixel_values": { "type": "FLOAT", "shape": [1, 1, "height", "width"] }, "pixel_mask": { "type": "BOOL", "shape": [1, "height", "width"] } },
+      "outputs": { "encoder_features": { "type": "FLOAT", "shape": ["batch", "enc_h", "enc_w", 256] }, "encoder_mask": { "type": "BOOL", "shape": [1, "enc_h", "enc_w"] } }
+    },
+    "decoder_int8.onnx": {
+      "irVersion": 8, "opset": { "ai.onnx": 17 }, "producer": "onnx.quantize 0.1.0", "nodes": 1209,
+      "inputs": { "encoder_features": { "type": "FLOAT", "shape": [1, "enc_h", "enc_w", 256] }, "encoder_mask": { "type": "BOOL", "shape": [1, "enc_h", "enc_w"] }, "input_ids": { "type": "INT64", "shape": [1, "seq_len"] } },
+      "outputs": { "logits": { "type": "FLOAT", "shape": [1, "seq_len", 113] } },
+      "note": "no key/value cache: every step re-feeds the whole prefix"
+    },
+    "operatorsNeeded": ["ConvInteger", "MatMulInteger", "DynamicQuantizeLinear", "Einsum", "CumSum", "Trilu"]
+  },
+  "runtime": {
+    "android": "com.microsoft.onnxruntime:onnxruntime-android:1.22.0 (full package, CPU)",
+    "referenceRuns": "onnxruntime-node 1.21 (Node 22) for the unmodified ink-on code; onnxruntime 1.24 (Python) for metadata inspection"
+  },
+  "license": {
+    "repository": "Apache-2.0",
+    "repositoryCopyright": "Copyright 2025 kimseungdae",
+    "weightsRedistributionStatus": "NOT_ESTABLISHED",
+    "why": "The weights derive from CoMER (Green-Wood/CoMER). That upstream repository contains no LICENSE file and ships CROHME training data with its own terms; ink-on provides no model card (no checkpoint, quantisation provenance or data terms). Apache-2.0 from ink-on's author cannot grant rights the author may not hold."
+  },
+  "distribution": "This project does NOT contain the model binaries. scripts/fetch_comer_models.py installs the three files into app/src/main/assets/models/comer/ at build time, verifying the SHA-256 digests above."
+}

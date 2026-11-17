@@ -1,0 +1,1371 @@
+{
+ "vocabSize": 113,
+ "targetThickness": 3,
+ "samples": {
+  "add_25_15_w1": {
+   "label": "25 + 15",
+   "lineWidth": 2.765625,
+   "meaningful": true,
+   "results": {
+    "beam1": {
+     "latex": "2 5 + 1 5",
+     "tokenIds": [
+      13,
+      16,
+      6,
+      12,
+      16
+     ],
+     "encoderMs": 158,
+     "decoderMs": 57
+    },
+    "beam2": {
+     "latex": "2 5 + 1 5",
+     "tokenIds": [
+      13,
+      16,
+      6,
+      12,
+      16
+     ],
+     "encoderMs": 193,
+     "decoderMs": 61
+    },
+    "beam3": {
+     "latex": "2 5 + 1 5",
+     "tokenIds": [
+      13,
+      16,
+      6,
+      12,
+      16
+     ],
+     "encoderMs": 176,
+     "decoderMs": 96
+    }
+   },
+   "height": 256,
+   "width": 384
+  },
+  "add_25_15_w2": {
+   "label": "25 + 15",
+   "lineWidth": 2.6484375,
+   "meaningful": true,
+   "results": {
+    "beam1": {
+     "latex": "2 5 + 1 5",
+     "tokenIds": [
+      13,
+      16,
+      6,
+      12,
+      16
+     ],
+     "encoderMs": 221,
+     "decoderMs": 42
+    },
+    "beam2": {
+     "latex": "2 5 + 1 5",
+     "tokenIds": [
+      13,
+      16,
+      6,
+      12,
+      16
+     ],
+     "encoderMs": 198,
+     "decoderMs": 47
+    },
+    "beam3": {
+     "latex": "2 5 + 1 5",
+     "tokenIds": [
+      13,
+      16,
+      6,
+      12,
+      16
+     ],
+     "encoderMs": 169,
+     "decoderMs": 74
+    }
+   },
+   "height": 256,
+   "width": 384
+  },
+  "add_25_15_w3": {
+   "label": "25 + 15",
+   "lineWidth": 2.71875,
+   "meaningful": true,
+   "results": {
+    "beam1": {
+     "latex": "2 5 + 1 5",
+     "tokenIds": [
+      13,
+      16,
+      6,
+      12,
+      16
+     ],
+     "encoderMs": 158,
+     "decoderMs": 26
+    },
+    "beam2": {
+     "latex": "2 5 + 1 5",
+     "tokenIds": [
+      13,
+      16,
+      6,
+      12,
+      16
+     ],
+     "encoderMs": 164,
+     "decoderMs": 63
+    },
+    "beam3": {
+     "latex": "2 5 + 1 5",
+     "tokenIds": [
+      13,
+      16,
+      6,
+      12,
+      16
+     ],
+     "encoderMs": 219,
+     "decoderMs": 79
+    }
+   },
+   "height": 256,
+   "width": 384
+  },
+  "add_2_3_w1": {
+   "label": "2 + 3",
+   "lineWidth": 2.578125,
+   "meaningful": true,
+   "results": {
+    "beam1": {
+     "latex": "2 + 3",
+     "tokenIds": [
+      13,
+      6,
+      14
+     ],
+     "encoderMs": 178,
+     "decoderMs": 13
+    },
+    "beam2": {
+     "latex": "2 + 3",
+     "tokenIds": [
+      13,
+      6,
+      14
+     ],
+     "encoderMs": 142,
+     "decoderMs": 26
+    },
+    "beam3": {
+     "latex": "2 + 3",
+     "tokenIds": [
+      13,
+      6,
+      14
+     ],
+     "encoderMs": 139,
+     "decoderMs": 55
+    }
+   },
+   "height": 256,
+   "width": 320
+  },
+  "add_2_3_w2": {
+   "label": "2 + 3",
+   "lineWidth": 2.6484375,
+   "meaningful": true,
+   "results": {
+    "beam1": {
+     "latex": "2 + 3",
+     "tokenIds": [
+      13,
+      6,
+      14
+     ],
+     "encoderMs": 109,
+     "decoderMs": 14
+    },
+    "beam2": {
+     "latex": "2 + 3",
+     "tokenIds": [
+      13,
+      6,
+      14
+     ],
+     "encoderMs": 105,
+     "decoderMs": 27
+    },
+    "beam3": {
+     "latex": "2 + 3",
+     "tokenIds": [
+      13,
+      6,
+      14
+     ],
+     "encoderMs": 110,
+     "decoderMs": 42
+    }
+   },
+   "height": 256,
+   "width": 256
+  },
+  "add_2_3_w3": {
+   "label": "2 + 3",
+   "lineWidth": 2.6953125,
+   "meaningful": true,
+   "results": {
+    "beam1": {
+     "latex": "2 + 3",
+     "tokenIds": [
+      13,
+      6,
+      14
+     ],
+     "encoderMs": 135,
+     "decoderMs": 21
+    },
+    "beam2": {
+     "latex": "2 + 3",
+     "tokenIds": [
+      13,
+      6,
+      14
+     ],
+     "encoderMs": 134,
+     "decoderMs": 25
+    },
+    "beam3": {
+     "latex": "2 + 3",
+     "tokenIds": [
+      13,
+      6,
+      14
+     ],
+     "encoderMs": 109,
+     "decoderMs": 45
+    }
+   },
+   "height": 256,
+   "width": 256
+  },
+  "add_eq_w1": {
+   "label": "25 + 15 =",
+   "lineWidth": 2.765625,
+   "meaningful": true,
+   "results": {
+    "beam1": {
+     "latex": "2 5 + 1 5 = =",
+     "tokenIds": [
+      13,
+      16,
+      6,
+      12,
+      16,
+      22,
+      22
+     ],
+     "encoderMs": 210,
+     "decoderMs": 50
+    },
+    "beam2": {
+     "latex": "2 5 + 1 5 = =",
+     "tokenIds": [
+      13,
+      16,
+      6,
+      12,
+      16,
+      22,
+      22
+     ],
+     "encoderMs": 210,
+     "decoderMs": 117
+    },
+    "beam3": {
+     "latex": "2 5 + 1 5 = =",
+     "tokenIds": [
+      13,
+      16,
+      6,
+      12,
+      16,
+      22,
+      22
+     ],
+     "encoderMs": 246,
+     "decoderMs": 143
+    }
+   },
+   "height": 256,
+   "width": 448
+  },
+  "add_eq_w2": {
+   "label": "25 + 15 =",
+   "lineWidth": 2.6484375,
+   "meaningful": true,
+   "results": {
+    "beam1": {
+     "latex": "2 5 + 1 5 = =",
+     "tokenIds": [
+      13,
+      16,
+      6,
+      12,
+      16,
+      22,
+      22
+     ],
+     "encoderMs": 240,
+     "decoderMs": 49
+    },
+    "beam2": {
+     "latex": "2 5 + 1 5 = =",
+     "tokenIds": [
+      13,
+      16,
+      6,
+      12,
+      16,
+      22,
+      22
+     ],
+     "encoderMs": 209,
+     "decoderMs": 77
+    },
+    "beam3": {
+     "latex": "2 5 + 1 5 = =",
+     "tokenIds": [
+      13,
+      16,
+      6,
+      12,
+      16,
+      22,
+      22
+     ],
+     "encoderMs": 221,
+     "decoderMs": 163
+    }
+   },
+   "height": 256,
+   "width": 448
+  },
+  "add_eq_w3": {
+   "label": "25 + 15 =",
+   "lineWidth": 2.71875,
+   "meaningful": true,
+   "results": {
+    "beam1": {
+     "latex": "2 5 + 1 5 = =",
+     "tokenIds": [
+      13,
+      16,
+      6,
+      12,
+      16,
+      22,
+      22
+     ],
+     "encoderMs": 220,
+     "decoderMs": 50
+    },
+    "beam2": {
+     "latex": "2 5 + 1 5 = =",
+     "tokenIds": [
+      13,
+      16,
+      6,
+      12,
+      16,
+      22,
+      22
+     ],
+     "encoderMs": 189,
+     "decoderMs": 82
+    },
+    "beam3": {
+     "latex": "2 5 + 1 5 = =",
+     "tokenIds": [
+      13,
+      16,
+      6,
+      12,
+      16,
+      22,
+      22
+     ],
+     "encoderMs": 188,
+     "decoderMs": 139
+    }
+   },
+   "height": 256,
+   "width": 448
+  },
+  "div_15_3_w1": {
+   "label": "15 \\div 3",
+   "lineWidth": 2.578125,
+   "meaningful": true,
+   "results": {
+    "beam1": {
+     "latex": "1 5 \\div 3",
+     "tokenIds": [
+      12,
+      16,
+      50,
+      14
+     ],
+     "encoderMs": 158,
+     "decoderMs": 22
+    },
+    "beam2": {
+     "latex": "1 5 \\div 3",
+     "tokenIds": [
+      12,
+      16,
+      50,
+      14
+     ],
+     "encoderMs": 159,
+     "decoderMs": 57
+    },
+    "beam3": {
+     "latex": "1 5 \\div 3",
+     "tokenIds": [
+      12,
+      16,
+      50,
+      14
+     ],
+     "encoderMs": 150,
+     "decoderMs": 48
+    }
+   },
+   "height": 256,
+   "width": 320
+  },
+  "div_15_3_w2": {
+   "label": "15 \\div 3",
+   "lineWidth": 2.7421874999999996,
+   "meaningful": true,
+   "results": {
+    "beam1": {
+     "latex": "1 5 \\div 3",
+     "tokenIds": [
+      12,
+      16,
+      50,
+      14
+     ],
+     "encoderMs": 119,
+     "decoderMs": 19
+    },
+    "beam2": {
+     "latex": "1 5 \\div 3",
+     "tokenIds": [
+      12,
+      16,
+      50,
+      14
+     ],
+     "encoderMs": 111,
+     "decoderMs": 35
+    },
+    "beam3": {
+     "latex": "1 5 \\div 3",
+     "tokenIds": [
+      12,
+      16,
+      50,
+      14
+     ],
+     "encoderMs": 121,
+     "decoderMs": 46
+    }
+   },
+   "height": 256,
+   "width": 320
+  },
+  "div_15_3_w3": {
+   "label": "15 \\div 3",
+   "lineWidth": 2.7421874999999996,
+   "meaningful": true,
+   "results": {
+    "beam1": {
+     "latex": "1 5 \\div 3",
+     "tokenIds": [
+      12,
+      16,
+      50,
+      14
+     ],
+     "encoderMs": 117,
+     "decoderMs": 17
+    },
+    "beam2": {
+     "latex": "1 5 \\div 3",
+     "tokenIds": [
+      12,
+      16,
+      50,
+      14
+     ],
+     "encoderMs": 114,
+     "decoderMs": 34
+    },
+    "beam3": {
+     "latex": "1 5 \\div 3",
+     "tokenIds": [
+      12,
+      16,
+      50,
+      14
+     ],
+     "encoderMs": 130,
+     "decoderMs": 49
+    }
+   },
+   "height": 256,
+   "width": 320
+  },
+  "eq_2x_w1": {
+   "label": "2 x + 5 = 15",
+   "lineWidth": 2.71875,
+   "meaningful": true,
+   "results": {
+    "beam1": {
+     "latex": "2 x + 5 = 1 5",
+     "tokenIds": [
+      13,
+      107,
+      6,
+      16,
+      22,
+      12,
+      16
+     ],
+     "encoderMs": 224,
+     "decoderMs": 66
+    },
+    "beam2": {
+     "latex": "2 x + 5 = 1 5",
+     "tokenIds": [
+      13,
+      107,
+      6,
+      16,
+      22,
+      12,
+      16
+     ],
+     "encoderMs": 251,
+     "decoderMs": 114
+    },
+    "beam3": {
+     "latex": "2 x + 5 = 1 5",
+     "tokenIds": [
+      13,
+      107,
+      6,
+      16,
+      22,
+      12,
+      16
+     ],
+     "encoderMs": 292,
+     "decoderMs": 158
+    }
+   },
+   "height": 256,
+   "width": 512
+  },
+  "eq_2x_w2": {
+   "label": "2 x + 5 = 15",
+   "lineWidth": 2.7421874999999996,
+   "meaningful": true,
+   "results": {
+    "beam1": {
+     "latex": "2 x + 5 = 1 5",
+     "tokenIds": [
+      13,
+      107,
+      6,
+      16,
+      22,
+      12,
+      16
+     ],
+     "encoderMs": 241,
+     "decoderMs": 50
+    },
+    "beam2": {
+     "latex": "2 x + 5 = 1 5",
+     "tokenIds": [
+      13,
+      107,
+      6,
+      16,
+      22,
+      12,
+      16
+     ],
+     "encoderMs": 233,
+     "decoderMs": 103
+    },
+    "beam3": {
+     "latex": "2 x + 5 = 1 5",
+     "tokenIds": [
+      13,
+      107,
+      6,
+      16,
+      22,
+      12,
+      16
+     ],
+     "encoderMs": 233,
+     "decoderMs": 157
+    }
+   },
+   "height": 256,
+   "width": 512
+  },
+  "eq_2x_w3": {
+   "label": "2 x + 5 = 15",
+   "lineWidth": 2.765625,
+   "meaningful": true,
+   "results": {
+    "beam1": {
+     "latex": "2 x + 5 = 1 5",
+     "tokenIds": [
+      13,
+      107,
+      6,
+      16,
+      22,
+      12,
+      16
+     ],
+     "encoderMs": 291,
+     "decoderMs": 63
+    },
+    "beam2": {
+     "latex": "2 x + 5 = 1 5",
+     "tokenIds": [
+      13,
+      107,
+      6,
+      16,
+      22,
+      12,
+      16
+     ],
+     "encoderMs": 260,
+     "decoderMs": 113
+    },
+    "beam3": {
+     "latex": "2 x + 5 = 1 5",
+     "tokenIds": [
+      13,
+      107,
+      6,
+      16,
+      22,
+      12,
+      16
+     ],
+     "encoderMs": 234,
+     "decoderMs": 150
+    }
+   },
+   "height": 256,
+   "width": 512
+  },
+  "frac_3_4_w1": {
+   "label": "\\frac { 3 } { 4 }",
+   "lineWidth": 4.734375,
+   "meaningful": true,
+   "results": {
+    "beam1": {
+     "latex": "\\frac { 3 } { 4 }",
+     "tokenIds": [
+      53,
+      110,
+      14,
+      112,
+      110,
+      15,
+      112
+     ],
+     "encoderMs": 55,
+     "decoderMs": 22
+    },
+    "beam2": {
+     "latex": "\\frac { 3 } { 4 }",
+     "tokenIds": [
+      53,
+      110,
+      14,
+      112,
+      110,
+      15,
+      112
+     ],
+     "encoderMs": 52,
+     "decoderMs": 49
+    },
+    "beam3": {
+     "latex": "\\frac { 3 } { 4 }",
+     "tokenIds": [
+      53,
+      110,
+      14,
+      112,
+      110,
+      15,
+      112
+     ],
+     "encoderMs": 56,
+     "decoderMs": 94
+    }
+   },
+   "height": 256,
+   "width": 128
+  },
+  "frac_3_4_w2": {
+   "label": "\\frac { 3 } { 4 }",
+   "lineWidth": 4.7109375,
+   "meaningful": true,
+   "results": {
+    "beam1": {
+     "latex": "\\frac { 3 } { 4 }",
+     "tokenIds": [
+      53,
+      110,
+      14,
+      112,
+      110,
+      15,
+      112
+     ],
+     "encoderMs": 58,
+     "decoderMs": 22
+    },
+    "beam2": {
+     "latex": "\\frac { 3 } { 4 }",
+     "tokenIds": [
+      53,
+      110,
+      14,
+      112,
+      110,
+      15,
+      112
+     ],
+     "encoderMs": 65,
+     "decoderMs": 55
+    },
+    "beam3": {
+     "latex": "\\frac { 3 } { 4 }",
+     "tokenIds": [
+      53,
+      110,
+      14,
+      112,
+      110,
+      15,
+      112
+     ],
+     "encoderMs": 60,
+     "decoderMs": 92
+    }
+   },
+   "height": 256,
+   "width": 128
+  },
+  "frac_3_4_w3": {
+   "label": "\\frac { 3 } { 4 }",
+   "lineWidth": 4.921875,
+   "meaningful": true,
+   "results": {
+    "beam1": {
+     "latex": "\\frac { 3 } { 4 }",
+     "tokenIds": [
+      53,
+      110,
+      14,
+      112,
+      110,
+      15,
+      112
+     ],
+     "encoderMs": 87,
+     "decoderMs": 28
+    },
+    "beam2": {
+     "latex": "\\frac { 3 } { 4 }",
+     "tokenIds": [
+      53,
+      110,
+      14,
+      112,
+      110,
+      15,
+      112
+     ],
+     "encoderMs": 57,
+     "decoderMs": 50
+    },
+    "beam3": {
+     "latex": "\\frac { 3 } { 4 }",
+     "tokenIds": [
+      53,
+      110,
+      14,
+      112,
+      110,
+      15,
+      112
+     ],
+     "encoderMs": 65,
+     "decoderMs": 73
+    }
+   },
+   "height": 256,
+   "width": 128
+  },
+  "junk_dot": {
+   "label": "",
+   "lineWidth": 2,
+   "meaningful": false,
+   "results": {}
+  },
+  "mul_12_8_w1": {
+   "label": "12 \\times 8",
+   "lineWidth": 2.578125,
+   "meaningful": true,
+   "results": {
+    "beam1": {
+     "latex": "1 2 \\times 8",
+     "tokenIds": [
+      12,
+      13,
+      78,
+      19
+     ],
+     "encoderMs": 140,
+     "decoderMs": 20
+    },
+    "beam2": {
+     "latex": "1 2 \\times 8",
+     "tokenIds": [
+      12,
+      13,
+      78,
+      19
+     ],
+     "encoderMs": 167,
+     "decoderMs": 36
+    },
+    "beam3": {
+     "latex": "1 2 \\times 8",
+     "tokenIds": [
+      12,
+      13,
+      78,
+      19
+     ],
+     "encoderMs": 145,
+     "decoderMs": 51
+    }
+   },
+   "height": 256,
+   "width": 320
+  },
+  "mul_12_8_w2": {
+   "label": "12 \\times 8",
+   "lineWidth": 2.71875,
+   "meaningful": true,
+   "results": {
+    "beam1": {
+     "latex": "1 2 \\times 8",
+     "tokenIds": [
+      12,
+      13,
+      78,
+      19
+     ],
+     "encoderMs": 209,
+     "decoderMs": 28
+    },
+    "beam2": {
+     "latex": "1 2 \\times 8",
+     "tokenIds": [
+      12,
+      13,
+      78,
+      19
+     ],
+     "encoderMs": 170,
+     "decoderMs": 36
+    },
+    "beam3": {
+     "latex": "1 2 \\times 8",
+     "tokenIds": [
+      12,
+      13,
+      78,
+      19
+     ],
+     "encoderMs": 148,
+     "decoderMs": 59
+    }
+   },
+   "height": 256,
+   "width": 320
+  },
+  "mul_12_8_w3": {
+   "label": "12 \\times 8",
+   "lineWidth": 2.8125,
+   "meaningful": true,
+   "results": {
+    "beam1": {
+     "latex": "1 2 \\times 8",
+     "tokenIds": [
+      12,
+      13,
+      78,
+      19
+     ],
+     "encoderMs": 136,
+     "decoderMs": 28
+    },
+    "beam2": {
+     "latex": "1 2 \\times 8",
+     "tokenIds": [
+      12,
+      13,
+      78,
+      19
+     ],
+     "encoderMs": 153,
+     "decoderMs": 55
+    },
+    "beam3": {
+     "latex": "1 2 \\times 8",
+     "tokenIds": [
+      12,
+      13,
+      78,
+      19
+     ],
+     "encoderMs": 161,
+     "decoderMs": 58
+    }
+   },
+   "height": 256,
+   "width": 320
+  },
+  "pow_2_2_w1": {
+   "label": "2 ^ { 2 }",
+   "lineWidth": 2.9296875,
+   "meaningful": true,
+   "results": {
+    "beam1": {
+     "latex": "2 ^ { 2 }",
+     "tokenIds": [
+      13,
+      82,
+      110,
+      13,
+      112
+     ],
+     "encoderMs": 82,
+     "decoderMs": 20
+    },
+    "beam2": {
+     "latex": "2 ^ { 2 }",
+     "tokenIds": [
+      13,
+      82,
+      110,
+      13,
+      112
+     ],
+     "encoderMs": 89,
+     "decoderMs": 41
+    },
+    "beam3": {
+     "latex": "2 ^ { 2 }",
+     "tokenIds": [
+      13,
+      82,
+      110,
+      13,
+      112
+     ],
+     "encoderMs": 81,
+     "decoderMs": 69
+    }
+   },
+   "height": 256,
+   "width": 192
+  },
+  "pow_2_2_w2": {
+   "label": "2 ^ { 2 }",
+   "lineWidth": 2.90625,
+   "meaningful": true,
+   "results": {
+    "beam1": {
+     "latex": "2 ^ { 2 }",
+     "tokenIds": [
+      13,
+      82,
+      110,
+      13,
+      112
+     ],
+     "encoderMs": 84,
+     "decoderMs": 24
+    },
+    "beam2": {
+     "latex": "2 ^ { 2 }",
+     "tokenIds": [
+      13,
+      82,
+      110,
+      13,
+      112
+     ],
+     "encoderMs": 82,
+     "decoderMs": 36
+    },
+    "beam3": {
+     "latex": "2 ^ { 2 }",
+     "tokenIds": [
+      13,
+      82,
+      110,
+      13,
+      112
+     ],
+     "encoderMs": 79,
+     "decoderMs": 59
+    }
+   },
+   "height": 256,
+   "width": 192
+  },
+  "pow_2_2_w3": {
+   "label": "2 ^ { 2 }",
+   "lineWidth": 2.9765625,
+   "meaningful": true,
+   "results": {
+    "beam1": {
+     "latex": "2 ^ { 2 }",
+     "tokenIds": [
+      13,
+      82,
+      110,
+      13,
+      112
+     ],
+     "encoderMs": 77,
+     "decoderMs": 20
+    },
+    "beam2": {
+     "latex": "2 ^ { 2 }",
+     "tokenIds": [
+      13,
+      82,
+      110,
+      13,
+      112
+     ],
+     "encoderMs": 81,
+     "decoderMs": 34
+    },
+    "beam3": {
+     "latex": "2 ^ { 2 }",
+     "tokenIds": [
+      13,
+      82,
+      110,
+      13,
+      112
+     ],
+     "encoderMs": 81,
+     "decoderMs": 54
+    }
+   },
+   "height": 256,
+   "width": 192
+  },
+  "sqrt_144_w1": {
+   "label": "\\sqrt { 144 }",
+   "lineWidth": 3.2109375,
+   "meaningful": true,
+   "results": {
+    "beam1": {
+     "latex": "\\sqrt { 1 4 4 }",
+     "tokenIds": [
+      74,
+      110,
+      12,
+      15,
+      15,
+      112
+     ],
+     "encoderMs": 115,
+     "decoderMs": 31
+    },
+    "beam2": {
+     "latex": "\\sqrt { 1 4 4 }",
+     "tokenIds": [
+      74,
+      110,
+      12,
+      15,
+      15,
+      112
+     ],
+     "encoderMs": 116,
+     "decoderMs": 80
+    },
+    "beam3": {
+     "latex": "\\sqrt { 1 4 4 }",
+     "tokenIds": [
+      74,
+      110,
+      12,
+      15,
+      15,
+      112
+     ],
+     "encoderMs": 108,
+     "decoderMs": 82
+    }
+   },
+   "height": 256,
+   "width": 256
+  },
+  "sqrt_144_w2": {
+   "label": "\\sqrt { 144 }",
+   "lineWidth": 3.2109375,
+   "meaningful": true,
+   "results": {
+    "beam1": {
+     "latex": "\\sqrt { 1 4 4 }",
+     "tokenIds": [
+      74,
+      110,
+      12,
+      15,
+      15,
+      112
+     ],
+     "encoderMs": 101,
+     "decoderMs": 28
+    },
+    "beam2": {
+     "latex": "\\sqrt { 1 4 4 }",
+     "tokenIds": [
+      74,
+      110,
+      12,
+      15,
+      15,
+      112
+     ],
+     "encoderMs": 112,
+     "decoderMs": 67
+    },
+    "beam3": {
+     "latex": "\\sqrt { 1 4 4 }",
+     "tokenIds": [
+      74,
+      110,
+      12,
+      15,
+      15,
+      112
+     ],
+     "encoderMs": 133,
+     "decoderMs": 104
+    }
+   },
+   "height": 256,
+   "width": 256
+  },
+  "sqrt_144_w3": {
+   "label": "\\sqrt { 144 }",
+   "lineWidth": 3.1875,
+   "meaningful": true,
+   "results": {
+    "beam1": {
+     "latex": "\\sqrt { 1 4 4 }",
+     "tokenIds": [
+      74,
+      110,
+      12,
+      15,
+      15,
+      112
+     ],
+     "encoderMs": 100,
+     "decoderMs": 37
+    },
+    "beam2": {
+     "latex": "\\sqrt { 1 4 4 }",
+     "tokenIds": [
+      74,
+      110,
+      12,
+      15,
+      15,
+      112
+     ],
+     "encoderMs": 108,
+     "decoderMs": 55
+    },
+    "beam3": {
+     "latex": "\\sqrt { 1 4 4 }",
+     "tokenIds": [
+      74,
+      110,
+      12,
+      15,
+      15,
+      112
+     ],
+     "encoderMs": 101,
+     "decoderMs": 73
+    }
+   },
+   "height": 256,
+   "width": 256
+  },
+  "sub_7_4_w1": {
+   "label": "7 - 4",
+   "lineWidth": 2.625,
+   "meaningful": true,
+   "results": {
+    "beam1": {
+     "latex": "7 - 4",
+     "tokenIds": [
+      18,
+      8,
+      15
+     ],
+     "encoderMs": 95,
+     "decoderMs": 13
+    },
+    "beam2": {
+     "latex": "7 - 4",
+     "tokenIds": [
+      18,
+      8,
+      15
+     ],
+     "encoderMs": 100,
+     "decoderMs": 26
+    },
+    "beam3": {
+     "latex": "7 - 4",
+     "tokenIds": [
+      18,
+      8,
+      15
+     ],
+     "encoderMs": 120,
+     "decoderMs": 43
+    }
+   },
+   "height": 256,
+   "width": 256
+  },
+  "sub_7_4_w2": {
+   "label": "7 - 4",
+   "lineWidth": 2.671875,
+   "meaningful": true,
+   "results": {
+    "beam1": {
+     "latex": "7 - 4",
+     "tokenIds": [
+      18,
+      8,
+      15
+     ],
+     "encoderMs": 104,
+     "decoderMs": 16
+    },
+    "beam2": {
+     "latex": "7 - 4",
+     "tokenIds": [
+      18,
+      8,
+      15
+     ],
+     "encoderMs": 104,
+     "decoderMs": 30
+    },
+    "beam3": {
+     "latex": "7 - 4",
+     "tokenIds": [
+      18,
+      8,
+      15
+     ],
+     "encoderMs": 110,
+     "decoderMs": 35
+    }
+   },
+   "height": 256,
+   "width": 256
+  },
+  "sub_7_4_w3": {
+   "label": "7 - 4",
+   "lineWidth": 2.765625,
+   "meaningful": true,
+   "results": {
+    "beam1": {
+     "latex": "7 - 4",
+     "tokenIds": [
+      18,
+      8,
+      15
+     ],
+     "encoderMs": 115,
+     "decoderMs": 14
+    },
+    "beam2": {
+     "latex": "7 - 4",
+     "tokenIds": [
+      18,
+      8,
+      15
+     ],
+     "encoderMs": 106,
+     "decoderMs": 25
+    },
+    "beam3": {
+     "latex": "7 - 4",
+     "tokenIds": [
+      18,
+      8,
+      15
+     ],
+     "encoderMs": 109,
+     "decoderMs": 40
+    }
+   },
+   "height": 256,
+   "width": 256
+  }
+ }
+}

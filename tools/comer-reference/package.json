@@ -1,0 +1,17 @@
+{
+  "name": "ref",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "canvas": "^3.0.0",
+    "onnxruntime-node": "1.21.0",
+    "tsx": "^4.0.0"
+  },
+  "scripts": {
+    "reference": "tsx run.ts",
+    "goldens": "tsx gen_goldens.ts",
+    "replay": "tsx gen_replay.ts",
+    "scale": "tsx exp_scale.ts",
+    "bench": "tsx bench.ts"
+  }
+}

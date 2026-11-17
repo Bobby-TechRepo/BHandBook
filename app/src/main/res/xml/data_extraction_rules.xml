@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Cloud backup and device-to-device transfer (Android 12 and newer): the canvases and the settings; never the opt-in handwriting samples. -->
+<data-extraction-rules>
+    <cloud-backup>
+        <include domain="database" path="."/>
+        <include domain="sharedpref" path="settings.xml"/>
+        <include domain="sharedpref" path="graph_panels.xml"/>
+        <exclude domain="file" path="samples"/>
+        <exclude domain="external" path="samples"/>
+    </cloud-backup>
+    <device-transfer>
+        <include domain="database" path="."/>
+        <include domain="sharedpref" path="settings.xml"/>
+        <include domain="sharedpref" path="graph_panels.xml"/>
+        <exclude domain="file" path="samples"/>
+        <exclude domain="external" path="samples"/>
+    </device-transfer>
+</data-extraction-rules>

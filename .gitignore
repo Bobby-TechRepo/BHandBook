@@ -1,0 +1,15 @@
+# Model weights: redistribution rights are not established (see THIRD_PARTY_COMER.md). Install them with scripts/fetch_comer_models.py.
+*.onnx
+app/src/main/assets/models/comer/vocab.json
+# Android / Gradle
+.gradle/
+build/
+local.properties
+*.iml
+.idea/
+.DS_Store
+
+# Release signing: never commit these
+keystore.properties
+*.jks
+*.keystore

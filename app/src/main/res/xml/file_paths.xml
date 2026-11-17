@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <!-- only the exported images / PDFs are shareable -->
+    <cache-path name="shared" path="shared/" />
+</paths>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Auto Backup (Android 11 and older): the canvases (database) and the settings, nothing else. The opt-in handwriting samples (files/samples, in the
+     app's external-files folder) are promised to stay on the device, so they are never included. -->
+<full-backup-content>
+    <include domain="database" path="."/>
+    <include domain="sharedpref" path="settings.xml"/>
+    <include domain="sharedpref" path="graph_panels.xml"/>
+    <exclude domain="file" path="samples"/>
+    <exclude domain="external" path="samples"/>
+</full-backup-content>
