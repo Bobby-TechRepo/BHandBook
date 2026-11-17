@@ -93,14 +93,14 @@ jobs:
       - name: Name the outputs
         run: |
           mkdir -p dist
-          cp app/build/outputs/bundle/release/*.aab "dist/BMusic-${{ steps.version.outputs.name }}.aab"
-          cp app/build/outputs/apk/release/*.apk "dist/BMusic-${{ steps.version.outputs.name }}.apk"
+          #cp app/build/outputs/bundle/release/*.aab "dist/bhandbook-${{ steps.version.outputs.name }}.aab"
+          cp app/build/outputs/apk/release/*.apk "dist/bhandbook-${{ steps.version.outputs.name }}.apk"
           cp app/build/outputs/mapping/release/mapping.txt "dist/mapping-${{ steps.version.outputs.name }}.txt"
 
       - name: Keep the outputs
         uses: actions/upload-artifact@v4
         with:
-          name: BMusic-${{ steps.version.outputs.name }}
+          name: bhandbook-${{ steps.version.outputs.name }}
           path: dist/
 
       - name: Publish a GitHub release
